@@ -1,0 +1,282 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    font-size: 26px;
+    line-height: normal;
+    background: #F4EDEA;
+    }
+
+    /* #region navigation */
+    .nav__bar {
+        margin: 5px 10px;
+    }
+    
+    
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        justify-content: space-between;
+        padding-top: 10px;
+        padding-left: 0;
+        padding-right: 22px;
+               
+    }
+
+    .logo {
+        margin-right: 795px;
+  
+    }
+
+    .nav__link {
+        color: #000;
+        text-align: center;
+        font-size: 28px;
+        text-decoration: none;
+    
+    }
+
+    .nav__link__order {
+        color: #FF5400;
+        text-align: center;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        text-decoration: none;
+       
+    }
+
+   /* #endregion navigation */
+
+   /* #region header  */
+
+   .header {
+    margin: 10px ;
+    color: #000;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: auto;
+    
+   }
+
+   .ichiraku-ramen-box {
+    margin-top: 79px;
+    padding-top: 43px;
+    padding-bottom: 43px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+   }
+
+
+  .naruto-orange-highlight {
+        color: #FF5400;
+        font-family: Lato;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+  }
+
+  .uzumaki-favorite {
+    color: #000;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    
+  }
+
+  .naruto-image-box {
+    margin-left: 30px;
+  }
+  
+  .ichiraku-heading {
+    margin: 0;
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Fondamento;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px; /* 100% */
+    text-transform: uppercase;
+  }
+
+  .ichiraku-description {
+    margin: 0;
+    color: #000;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .order-now {
+    border-radius: 20px;
+    background: #FF5400;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 72px;
+    padding: 18px 26px 18px 28px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    color: #FFDBB5;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+  }
+  
+  
+  /* #endregion header */
+
+
+  /* #region menu */
+   .menu-box {
+    padding: 100px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+   }
+
+   .menu-description-box {
+    text-align: center;
+    margin: 0;
+   }
+
+   .orange-words {
+      color: #FF5400;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    
+   }
+
+   h3{
+      color: #000;
+      text-align: center;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin: 0;
+   }
+     
+   .shinobi-approved-dishes {
+          margin: 0;
+          color: #000;
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+
+
+      .menu-items-box {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        justify-content: center;
+        box-sizing: border-box;
+        padding: 20px 100px;
+      
+      }
+
+      .menu__item{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0;
+        text-align: center; 
+      
+      } 
+
+      .item-description {
+        
+        color: #000;
+      text-align: center;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      }
+
+      .item-image {
+        width: 100%;
+      }
+
+  /* #endregion menu */
+
+/* #region review */
+
+.reviews {
+  padding: 50px 46px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-header {
+  color: #000;
+  text-align: center;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+h4 {
+  margin: 0;
+}
+
+
+.orange-words-review {
+  color: #FF5400;
+  font-family: Lato;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+.client-review {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  display: flex;
+  width: 800px;
+  height: 233px;
+  padding: 0px 22px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 1px solid #000;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
+}
+
+
+
+
+/* #endregion review */
